@@ -63,7 +63,7 @@
     ts = null;
 
     if ( hasWeatherTile ) { addWeatherInfo(); }
-    if ( hasStockTile ) { addWeatherInfo(); }
+    if ( hasStockTile ) { addStockInfo(); }
   }
 
   function failed() {
