@@ -105,7 +105,7 @@
       $.when( ept.listItem.get( weatherListInfo ) ).done( processWeather ).fail( failedWeather );
   }
 
-  function addWStockInfo() {
+  function addStockInfo() {
     $.when( ept.listItem.get( stockListInfo ) ).done (processStock ).fail( failedStock );
   }
 
